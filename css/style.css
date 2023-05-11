@@ -6,6 +6,18 @@
 .body{
 height: 100vh;
 padding: auto;
+display: flex;
+min-height: 100vh;
+flex-direction: column;
+}
+
+.card{
+  width:100vw;
+}
+
+html,
+body{
+  overflow-x:hidden;
 }
 /* get font  */
 
@@ -47,7 +59,7 @@ padding: auto;
   width: 300px;
   height: 400px;
   perspective: 1000px;
-  margin-left: 100px;
+  margin-left: 10px;
 
 }
 
@@ -105,8 +117,9 @@ padding: auto;
     padding: 20px; 
     background-color: black;
     color: white;
-    bottom: 0;
+    /* bottom: 0; */
     width: 100vw;
+    margin-top: auto;
   }
 
   .footer-basic .social {
@@ -136,6 +149,7 @@ padding: auto;
 
  .col{
   height: 500px;
+  align-items: center;
 } 
 
 .test{
@@ -197,4 +211,34 @@ padding: auto;
 .hpg{
   border-radius: 100%;
   margin-top: 100px;
+  width: fit-content;
 }
+
+.lippe{
+  height: 300px;
+}
+
+.progress-bar1{
+  background-color: red;
+  color: white;
+}
+
+.progress-bar2{
+  background-color: blue;
+  color: white;
+}
+
+.progress-bar3{
+  background-color: blueviolet;
+  color: white;
+}
+
+.word{
+  text-decoration: underline;
+}
+.word:hover{   
+  /* make color background color */
+  color: blue;
+}
+
+
