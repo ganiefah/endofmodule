@@ -1,14 +1,20 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
+
 .body{
 height: 100vh;
 padding: auto;
 display: flex;
 min-height: 100vh;
 flex-direction: column;
+font-family: 'Bebas Neue', sans-serif;
 }
 
 .card{
@@ -52,15 +58,19 @@ body{
 }
 
 
-
+/* flipcard */
 .card{
-  position: relative;
-  top: 50px;
-  width: 300px;
+  /* position: relative; */
+  /* top: 50px; */
+  width: 260px;
   height: 400px;
   perspective: 1000px;
   margin-left: 10px;
 
+
+}
+.col{
+  margin: 10px;
 }
 
 .flip-card-inner {
@@ -72,8 +82,17 @@ body{
   transform-style: preserve-3d;
 }
 
+.broo{
+  display:flex;
+}
+
 .card:hover .flip-card-inner {
   transform: rotateY(180deg);
+}
+
+.shapbro{
+  display:flex;
+  flex-direction: row;
 }
 
 .flip-card-front img {
@@ -111,13 +130,12 @@ body{
 }
 
 
-
+/* footer */
   .footer { 
     text-align: center;
     padding: 20px; 
     background-color: black;
     color: white;
-    /* bottom: 0; */
     width: 100vw;
     margin-top: auto;
   }
@@ -139,16 +157,20 @@ body{
     opacity:0.75;
   }
 
-
+/* contact button */
   .btn{
     color: white;
     background-color:black ;
   }
-  
-  
 
+  .btn:hover{
+    background-color: grey;
+  }
+  
+  
+/* column */
  .col{
-  height: 500px;
+  height: 400px;
   align-items: center;
 } 
 
@@ -157,10 +179,10 @@ body{
 }
 
 
-
-.testimon{
-  height: fit-content;
+.rows{
+  margin-right: 7px;
 }
+
 
 .header1{
   text-align: center;
@@ -215,7 +237,8 @@ body{
 }
 
 .lippe{
-  height: 300px;
+  height: 350px;
+
 }
 
 .progress-bar1{
@@ -236,9 +259,19 @@ body{
 .word{
   text-decoration: underline;
 }
-.word:hover{   
-  /* make color background color */
-  color: blue;
+
+.word1{
+  text-decoration: underline ;
+  color: black;
 }
+
+.tshs{
+  border-radius: 50%;
+}
+
+.text{
+  margin-top: 100px;
+}
+
 
 
