@@ -39,6 +39,10 @@ body{
     
 }
 
+.navlinks a:hover{
+  color: white;
+}
+
 .logo{
     width: 100px;
 }
@@ -69,9 +73,9 @@ body{
 
 
 }
-.col{
+/* .col{
   margin: 10px;
-}
+} */
 
 .flip-card-inner {
   position: relative;
@@ -82,18 +86,13 @@ body{
   transform-style: preserve-3d;
 }
 
-.broo{
-  display:flex;
-}
+
 
 .card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
-.shapbro{
-  display:flex;
-  flex-direction: row;
-}
+
 
 .flip-card-front img {
   width: 300px;
@@ -275,7 +274,7 @@ body{
 
 @media screen and (max-width: 600px) {
   .carousel-caption,
-  h5,
+  h4,
   button {
     font-size: 1px;
   }
