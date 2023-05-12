@@ -273,5 +273,14 @@ body{
   margin-top: 100px;
 }
 
-
+@media screen and (max-width: 600px) {
+  .carousel-caption,
+  h5,
+  button {
+    font-size: 1px;
+  }
+  .carousel-caption button {
+    padding: 0.5px;
+  }
+}
 
